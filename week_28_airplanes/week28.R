@@ -78,9 +78,7 @@ png("europe_airports.png", res = 300, width = 5000, height = 5000)
                        color = "white",
                        size = 0.1) +
   labs(
-    title = "Airports in Europe",
-    subtitle = "Scatter map",
-    caption = "Based on OSM data"
+    title = "Airports in Europe"
   ) +
   theme_ipsum(base_family = "LM Roman 10") +
   theme(

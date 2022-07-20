@@ -72,7 +72,7 @@ png("europe_airports.png", res = 300, width = 5000, height = 5000)
   borders("world", xlim = c(-25, 50), 
           ylim = c(25, 70), size = 0.05, 
           fill = "black") +
-  geom_point(data = euro_2021, aes(lon,lat, color = quantile, size = quantile)) +
+  geom_point(data = euro_2021, aes(lon,lat, color = quantile)) +
   geom_voronoi_segment(data = euro_2021, 
                        aes(lon, lat),
                        color = "white",
